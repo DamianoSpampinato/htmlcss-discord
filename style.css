@@ -17,9 +17,7 @@ a{
     display: flex;
     align-items: center;
 }
-main{
-    max-width: 1200px;
-}
+
 
 
 /*------------
@@ -30,16 +28,20 @@ main{
     font-weight: bold;
     font-size: 50px;
    }
-    header{
-        color:#ffffff ;
-        text-align: center;
-    }
+   .col-40 h1{
+    font-size: 45px;
+   }
 
-    header p{
+ header{
+    color:#ffffff ;
+    text-align: center;
+}
+
+header p{
         margin-bottom: 30px;
-    }
+}
 
-    .hero > button{
+.hero > button{
         height: 60px;
         font-size: 30px;
         font-weight: 300;
@@ -47,8 +49,8 @@ main{
 
         
         
-    }
-    .btn-black{
+}
+.btn-black{
         background-color: #23272a;
         color: #ffff;
     }
@@ -121,6 +123,7 @@ nav{
 .container{
     display: flex;
     margin: auto;
+    max-width: 1200px;
 }
 footer{
     border-bottom: 5px solid #ffffff;
@@ -150,10 +153,10 @@ footer > div{
     display: flex;
     justify-content: flex-end;
     }
-
-/* -------
-utility
--------- */
+    
+    /* -------
+    utility
+    -------- */
 button{
     border-radius: 40px;
     background-color: #ffffff;
@@ -161,6 +164,11 @@ button{
    padding: 6px 16px;
    border: none;
    font-weight: bold;
+}
+
+section:nth-child(even){
+    background-color: #d3d3d3;
+
 }
 
 
@@ -220,10 +228,6 @@ footer{
 }
 .debug .col-60{
     background-color: #1e90ff;
-}
-
-section:nth-child(even){
-    background-color: #d3d3d3;
 }
 
 .debug .logo,.debug  .btn{
