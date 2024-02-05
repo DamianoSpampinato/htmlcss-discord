@@ -1,0 +1,166 @@
+
+/* -------
+    RESET
+-------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #00008b;
+    padding-bottom: 50px;
+}
+
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container-header{
+    padding: 6px;
+    
+    
+}
+.container-nav{
+    margin: auto;
+    display: flex;
+    max-width: 1100px;
+    justify-content: space-between;
+    line-height: 40px;
+    
+}
+nav{
+    text-align: center;
+}
+.col-25{
+    width: 25%;
+}
+
+.col-25:last-child{
+    display: flex;
+    justify-content: flex-end;
+}
+.col-x{
+    width: calc(70% / 4);
+}
+
+.col-30{
+    width: 30%;
+}
+.col-40{
+    width: 40%;
+}
+
+.col-50{
+    width:50%;
+}
+.col-60{
+    width: 60%;
+}
+
+.hero{
+    margin: auto;
+    margin-top: 50px;
+    
+}
+.container{
+    display: flex;
+    margin: auto;
+}
+footer{
+    border-bottom: 5px solid #ffffff;
+}
+
+footer section{
+    padding-top: 10px;
+    padding-bottom: 40px;
+    border-bottom: 5px solid white;
+}
+footer > div{
+    width: 1200px;
+    height: 80px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    border-bottom: 1px solid #ffffff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+
+}
+.btn{
+    display: flex;
+    justify-content: flex-end;
+    
+
+}
+/* -------
+DEBUG
+-------- */
+.debug .col-x, 
+.debug .col-25, 
+.debug  .col-30, 
+.debug .col-40, 
+.debug .col-50, 
+.debug .col-60,.debug  .container-header,.debug  .hero, .debug .container,.debug  .logo, .debug .btn{
+    border: 1px dashed black;
+}
+.debug .hero{
+    width: 900px;
+    height: 400px;
+    background-color: #ee82ee;
+}
+
+.debug .container-header{
+    background-color: #add8e6;
+}
+.debug .container-nav{
+    background-color: #daa520;
+}
+.debug .container{
+    width: 1200px;
+    height: 500px;
+    background-color: #228b22;
+}
+.debug main > .container:last-child{
+    height: 900px;
+}
+
+footer{
+    background-color: #23272a;
+}
+
+.debug footer > div{
+    background-color: #7fffd4;
+    
+}
+
+.debug .col-x{
+    background-color: #20b2aa;
+}
+.debug .col-30{
+    background-color: #f08080;
+}
+.debug .col-40{
+    background-color:#ffc0cb ;
+}
+.debug .col-60{
+    background-color: #1e90ff;
+}
+
+section:nth-child(even){
+    background-color: #d3d3d3;
+}
+
+.debug .logo,.debug  .btn{
+    width: 80px;
+    height: 40px;
+    background-color: #ffb6c1;
+    line-height: 40px;
+}
