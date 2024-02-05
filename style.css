@@ -28,11 +28,14 @@ a{
     font-weight: bold;
     font-size: 50px;
    }
-   .col-40 h1{
+   .container h1{
     font-size: 45px;
     margin-bottom: 35px;
    }
-
+   .column > p{
+     text-align: center;
+   
+   }
  header{
     color:#ffffff ;
     text-align: center;
@@ -40,6 +43,10 @@ a{
 
 header p{
         margin-bottom: 30px;
+}
+
+.stars{
+    margin-bottom: 50px;
 }
 
 .hero > button{
@@ -126,6 +133,11 @@ nav{
     margin: auto;
     max-width: 1200px;
 }
+
+.column{
+    flex-direction: column;
+    align-items: center;
+}
 footer{
     border-bottom: 5px solid #ffffff;
 }
@@ -165,6 +177,21 @@ button{
    padding: 6px 16px;
    border: none;
    font-weight: bold;
+}
+.btn-blue{
+    background-color: #8ea1e1;
+    color: #ffffff;
+}
+.stars{
+    background-image: url('img/stars.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 60px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
 }
 
 section:nth-child(even){
