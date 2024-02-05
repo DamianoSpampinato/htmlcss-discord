@@ -86,10 +86,13 @@ header p{
     font-weight: 300;
 }
 
-    
-.stars{
-    margin-bottom: 50px;
-}
+/*-----------
+  /HEADER
+----------*/
+
+/*-----------
+FOOTER
+----------*/
 
 footer section{
     padding-top: 10px;
@@ -139,6 +142,12 @@ li{
     border-top: 1px solid #7289da;
 }
 
+/*-----------
+/FOOTER
+----------*/
+
+
+
 /* -------
 utility
 -------- */
@@ -186,6 +195,7 @@ button{
     color: #ffffff;
 }
 .stars{
+    margin-bottom: 50px;
     background-image: url('img/stars.svg');
     background-size: contain;
     background-repeat: no-repeat;
